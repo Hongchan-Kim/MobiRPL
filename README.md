@@ -1,7 +1,7 @@
 MobiRPL
 ============================
 
-This is the open-source code of "MobiRPL: Adaptive, Robust, and RSSI-based Mobile Routing in Low Power and Lossy Network," published in Journal of Communications and Networks.
+This is the open-source code of "[MobiRPL: Adaptive, Robust, and RSSI-based Mobile Routing in Low Power and Lossy Network](https://ieeexplore.ieee.org/document/9718363)," published in Journal of Communications and Networks.
 MobiRPL is implemented on Contiki OS (version 3.0).
 
 Main application files can be found in examples/ipv6/MobiRPL
@@ -21,6 +21,8 @@ Please see project-conf.h file for more information.
 When using this source code, please cite the following paper:
 
 Hongchan Kim, Hyung-sin Kim, and Saewoong Bahk, "MobiRPL: Adaptive, Robust, and RSSI-based Mobile Routing in Low Power and Lossy Networks," to appear in Journal of Communications and Networks, 2022.
+
+----------------------------
 
 The Contiki Operating System
 ============================
