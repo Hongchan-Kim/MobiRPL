@@ -8,10 +8,10 @@ When using this source code, please cite the following paper:
 
 Hongchan Kim, Hyung-sin Kim, and Saewoong Bahk, "MobiRPL: Adaptive, Robust, and RSSI-based Mobile Routing in Low Power and Lossy Networks," to appear in Journal of Communications and Networks, 2022.
 
-Main application files can be found in examples/ipv6/MobiRPL.
+Main application files can be found in examples/ipv6/MobiRPL/.
 1. udp-sink.c contains operations of RPL root node. It generates downlink traffic.
 2. udp-sender.c contains operations of RPL non-root node. It generates uplink traffic.
-3. project-conf.h introduces a lot of experimental settings and parameters.
+3. project-conf.h introduces various experimental settings and parameters.
 
 There are three important parameters to configure MobiRPL.
 * MOBIRPL_MOBILITY_DETECTION
@@ -23,7 +23,6 @@ There are some other parameters to configure the operation of MobiRPL.
 Please see project-conf.h file for more information.
 
 The traces used in the Cooja simulation of the paper of MobiRPL can be found in MobiRPL-traces/.
-
 
 ----------------------------
 
